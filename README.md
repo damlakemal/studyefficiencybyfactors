@@ -15,4 +15,4 @@ Ultimately, I hope to find the "optimal routine" to make the best and most produ
 
 ## Data Collection 
   I will collect data daily by recording my **sleeping and waking times**, **every coffe I drink** (including where I got it from), and the **number of hours I study**, together with a self rated productivity score.
-  In addition I will collect my screentime data from my phone, computer, and iPad to analyze which apps and categories i spend most time each day. 
+  In addition I will collect my **screentime data** from my phone, computer, and iPad to analyze which apps and categories i spend most time each day. 
