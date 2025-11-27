@@ -47,4 +47,56 @@ I will collect daily data using these sources:
 
 - I will record how long I study each day using my phone stopwatch.
 - I will assign a personal productivity score from 0 to 10 (0 being the worst and 10 being the best) to each day, based on how productive and efficient my studying was.
-- I will record the place I study at each day, since I figured how it affects my productivity. 
+- I will record the place I study at each day, since I figured how it affects my productivity.
+
+## Methodology 
+
+In this project I will follow these steps to prepeare and analyze my data: 
+
+1. **Data Entry and Storage** 
+
+   - I will record all the data daily in a notes app.
+   - Later, I will transfer everything into a structured excel table. 
+   
+2. **Data Cleaning and Processing**
+
+   - I will check missing values (e.g. days I forgot to record something), and fill it with -1 on the table.
+   - I will convert all the time-related data into a consistent format.
+   - From the raw data I will calculate:
+       - Total sleep duration per day
+       - Total study time per day
+       - Total screen time per day and time spent in different categories / apps
+       - Total caffeine intake per day 
+  
+3. **Tools and Environment**
+
+   - I will use Python for the analysis:
+     - "pandas" for reading, cleaning, and organizing the data
+     - "matplotlib" for creating plots and visualizations
+     - "numpy" for numerical operations
+
+4. **Exploratory Data Analysis (EDA)**
+
+   - I will create a correlation matrix to see which variables are related to each other.
+   - I will look at basic statistics (mean, median, min, max, etc.) for each variable.
+   - I will plot histograms, and boxplots to see how these values change over time.
+  
+5. **Hypothesis Testing and Evaluation**
+
+   - Using the dataset, I will test the predefined hypotheses using:
+     - Basic correlation analysis to see how variables are related 
+     - Bar charts or boxplots to compare groups
+     - Scatter plots to visualize relationships between two variables 
+
+
+## Expected Findings
+
+Based on my intuition and existing common beliefs about productivity, I expect to find: 
+
+- A regular sleep schedule with healthy amount of sleep will **increase** my productivity.
+- Studying at the Information Center will **increase** my productivity.
+- Studiying longer than 5 hours that day will **increase** my productivity.
+- Having little to no caffeine intake will **decrease** my productivity.
+- Excessive screen time on non-productive apps will significantly **decrease** my study time and productivity.
+
+  These expectations will be confirmed or denied based on the actual data analysis. 
