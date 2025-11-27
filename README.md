@@ -86,7 +86,32 @@ In this project I will follow these steps to prepeare and analyze my data:
    - Using the dataset, I will test the predefined hypotheses using:
      - Basic correlation analysis to see how variables are related 
      - Bar charts or boxplots to compare groups
-     - Scatter plots to visualize relationships between two variables 
+     - Scatter plots to visualize relationships between two variables
+
+## Hypotheses and Hypothesis Testing 
+
+In this project, I will test how daily factors are related to my study productivity and efficiency. I will focus on the following hypotheses: 
+
+1. **Sleep and Productivity**
+
+   - **Hypothesis H1:** Sleeping between 7.5 to 9 hours per night is associated with high quality sleep and higher productivity scores.
+   - **Testing:** I will calculate the correlation between sleep duration and sleep quality scores, as well as the correlation between the sleep duration and productivity score. Later, I will visualize this relationship using scatterplots.
+  
+2. **Studying Location**
+
+   - **Hypothesis H2:** Studying at the Information Center results in higher productivity scores on average compared to any other location.
+   - **Testing:** I will calculate the average productivity scores of each study location and compare them by using boxplots or bar charts.
+
+3. **Study Duration**
+
+   - **Hypothesis H3:** Studying for longer periods of time will increase my productivity score.
+   - **Testing:** I will examine the relationship between total study time and productivity using correlation and plots. 
+
+4. **Caffeine Intake and Productivity**
+
+   - **Hypothesis H4:** Lower caffeine intake will result in lower productivity rates.
+   - **Testing:** I will group the days by caffeine intake and compare the average productivity score across these groups. 
+   
 
 
 ## Expected Findings
