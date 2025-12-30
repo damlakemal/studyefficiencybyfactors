@@ -95,22 +95,22 @@ In this project, I will test how daily factors are related to my study productiv
 1. **Sleep and Productivity**
 
    - **Hypothesis H1:** Sleeping between 7.5 to 9 hours per night is associated with high quality sleep and higher productivity scores.
-   - **Testing:** I will calculate the correlation between sleep duration and sleep quality scores, as well as the correlation between the sleep duration and productivity score. Later, I will visualize this relationship using scatterplots.
+   - **Testing:** Correlation (Pearson & Spearman) between sleep_hours and sleep quality, Correlation (Pearson & Spearman) between sleep_hours and productivity (Studying Efficiency), Group comparison: 7.5–9h vs outside for sleep quality and productivity (Welch t-test + Mann–Whitney)
   
 2. **Studying Location**
 
    - **Hypothesis H2:** Studying at the Information Center results in higher productivity scores on average compared to any other location.
-   - **Testing:** I will calculate the average productivity scores of each study location and compare them by using boxplots or bar charts.
-
+   - **Testing:** Compare productivity between place == "ic" and place != "ic" using Welch t-test and Mann–Whitney U.
+     
 3. **Study Duration**
 
-   - **Hypothesis H3:** Studying for longer periods of time will increase my productivity score.
-   - **Testing:** I will examine the relationship between total study time and productivity using correlation and plots. 
-
+   - **Hypothesis H3:** Studying for more than 4 hours in a day results in a higher productivity score compared to studying 4 hours or less.
+   - **Testing:** Two-group comparison (study_hours > 4 vs study_hours ≤ 4) using Welch t-test and Mann–Whitney U at α = 0.05.
+     
 4. **Caffeine Intake and Productivity**
 
-   - **Hypothesis H4:** Lower caffeine intake will result in lower productivity rates.
-   - **Testing:** I will group the days by caffeine intake and compare the average productivity score across these groups. 
+   - **Hypothesis H4:** Days with caffeine intake greater than 200 mg have higher productivity than days with 200 mg or less.
+   - **Testing:** Two-group comparison (caffeine > 200 mg vs ≤ 200 mg) using Welch t-test and Mann–Whitney U (α = 0.05). Since the hypothesis is directional (“higher”), one-sided versions are also reported.
    
 
 
