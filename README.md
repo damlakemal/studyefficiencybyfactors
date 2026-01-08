@@ -74,19 +74,19 @@ In this project I will follow these steps to prepeare and analyze my data:
      - "pandas" for reading, cleaning, and organizing the data
      - "matplotlib" for creating plots and visualizations
      - "numpy" for numerical operations
+     - "scipy" for technical computing
+     - "sklearn" for machine learning
+     - "re" for regular expressions like search, split, extract etc.
 
 4. **Exploratory Data Analysis (EDA)**
 
-   - I will create a correlation matrix to see which variables are related to each other.
-   - I will look at basic statistics (mean, median, min, max, etc.) for each variable.
-   - I will plot histograms, and boxplots to see how these values change over time.
+   - I will create line charts for daily sleep quality, caffeine intake, screen time, study time and productivity score.
+   - I will create heatmaps to visualize sleep duration-productivity score relationship and daily caffeine intake-productivity score relationships. 
+   - I will create grouped bar charts to visually examine the sleep duration-sleep quality, studying duration-efficiency, and caffeine intake-efficiency relationships.
   
 5. **Hypothesis Testing and Evaluation**
 
-   - Using the dataset, I will test the predefined hypotheses using:
-     - Basic correlation analysis to see how variables are related 
-     - Bar charts or boxplots to compare groups
-     - Scatter plots to visualize relationships between two variables
+   - Using the dataset, I will test the predefined hypotheses using, basic correlation analysis to see how variables are related 
 
 ## Hypotheses and Hypothesis Testing 
 
